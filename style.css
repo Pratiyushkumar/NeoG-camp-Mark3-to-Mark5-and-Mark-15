@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Scheherazade+New&family=Source+Sans+Pro&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: inline-block;
+    height: 100%;
+    margin: 0 129px 0 111px;
+
+}
+
+.nav-Container{
+    /* position: fixed;
+    top: 0; */
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    border-bottom: 0.5px solid #F3F4F6;
+    
+}
+
+.portfolio-icon{
+    margin: 30px;
+
+}
+.nav-Container a,
+.footer-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio-icon .user{
+    font-size: 62px;
+}
+
+.portfolio-icon .name{
+    font-size: 22px;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-lists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-lists li{
+    margin: 25px;
+    font-size: 22px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+/* header  */
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 418.562px;
+    width: 80vw;
+    margin-top: 47px;
+}
+
+.header .header-one{
+    width:40vw ;
+    text-align: center;
+
+}
+
+
+.header .header-one h1{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat',
+    sans-serif;
+    margin-bottom: 20px;
+}
+
+.header .header-one h3{
+    color: #f1da25;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+.header .header-one p {
+    /* width: 40vw; */
+    font-size: 20px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.header .header-two{
+    width: 40vw;
+    margin-top: 40px;
+}
+.header .header-two img{
+    position: relative;
+    bottom: 35px;
+    width: 40vw;
+}
+
+/* Resume */
+
+.resume{
+ display: block;
+}
+
+/* .resume .resume-education{
+
+} */
+
+.resume .resume-education h1{
+    font-size: 40px;
+    font-family: 'Montserrat',
+    sans-serif;
+    border-bottom: 2px solid #d5dae6;
+}
+
+.resume .resume-education h1 img{
+    width: 200px;
+    height: 100px;
+}
+
+.resume .resume-education .card1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.resume .resume-education .card1 .card1-1 {
+    
+    width: auto;
+    height: 181px;
+    border: 2px solid rgb(243, 185, 38);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.resume .resume-education .card1 .card1-1 h1{
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.resume .resume-education .card1 .card1-1 span {
+    
+    font-size: 18px;
+    font-family: 'Scheherazade New',
+    serif;
+}
+
+
+
+.resume .resume-experience h1 {
+    font-size: 40px;
+    font-family: 'Montserrat',
+        sans-serif;
+    border-bottom: 2px solid #d5dae6;
+}
+
+.resume .resume-experience h1 img {
+    width: 200px;
+    height: 100px;
+}
+
+
+.resume .resume-experience .card2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.resume .resume-experience .card2 .card2-1 {
+width: auto;
+height: 181px;
+border: 2px solid rgb(243, 185, 38);
+border-radius: 10px;
+padding: 5px;
+margin: 5px;
+text-align: center;
+}
+
+.resume .resume-experience .card2 .card2-1 h4{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 600;
+
+}
+
+.resume .resume-experience .card2 .card2-1 p {
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 500;
+
+}
+
+
+
+.resume .resume-certification h1 {
+    font-size: 40px;
+    font-family: 'Montserrat',
+        sans-serif;
+    border-bottom: 2px solid #d5dae6;
+    margin-bottom: 30px;
+}
+
+.resume .resume-certification h1 img {
+    width: 200px;
+    height: 100px;
+}
+
+.resume .resume-certification .section{
+   width: 80vw;
+   
+}
+
+.resume .resume-certification .section .whiteSection {
+     background-color: #E5E7EB;
+     border-radius: 10px;
+     text-align: center;
+     height: 97px;
+}
+
+.resume .resume-certification .section .whiteSection h4 {
+   font-size: 30px;
+   font-family: 'Montserrat',
+   sans-serif;
+   font-weight: 700;
+   padding: 5px;
+}
+
+.resume .resume-certification .section .whiteSection p {
+    font-size: 20px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+
+.resume .resume-certification .section .offwhiteSection {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #D1D5DB;
+    text-align: center;
+    height: 129px;
+}
+
+.resume .resume-certification .section .offwhiteSection h4 {
+    font-size: 30px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.resume .resume-certification .section .offwhiteSection li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+
+/* Footer Section */
+.footer-section{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 470px;
+    width: 80vw;
+    background-color: #6B7280;
+    border-radius: 20px;
+}
+
+.footer-section .footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-section .footer ul,
+.footer-section .footer i{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px;
+}
+
+.footer-section .footer li{
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.footer-section .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section .form h1{
+    font-size: 30px;
+    font-family: 'Scheherazade New',
+    serif;
+    color: #78350F;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    left: 31px;
+}
+
+.footer-section .form .input{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 30px; */
+}
+
+.footer-section .form input {
+    margin-right: 30px;
+    height: 48px;
+    width: 245px;
+    border-radius: 9px;
+     border-style: none;
+}
+
+.footer-section .form .textarea{
+    margin: 20px 0px 20px 30px;
+    width: 460px;
+    height: 90px;
+     border-radius: 5px;
+     border-style: none;
+}
+
+.form-button{
+    position: absolute;
+    top: 169px;
+    left: 185px;
+    height: 45px;
+    width: 156px;
+    border-radius: 30px;
+    background-color: #F59E0B;
+    color: #F9FAFB;
+    font-size: 20px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 700;
+    border: none;
+    box-shadow: 2px 2px 7px 1px #F9FAFB;
+    cursor: pointer;
+}
+.form-button:hover{
+    background-color: #374151;
+}
+
+address{
+    margin-top: 50px;
+    margin-left: 33px;
+}

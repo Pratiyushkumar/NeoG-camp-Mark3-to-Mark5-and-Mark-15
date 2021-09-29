@@ -1,0 +1,67 @@
+.message {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(169, 173, 173);
+}
+
+.project {
+  width: 100%;
+}
+
+.project .project-container {
+  border: 1px solid black;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project .project-container h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+}
+
+.project .project-container p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projectItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.projectItem button {
+  margin: 15px;
+  width: 150px;
+  height: 50px;
+  border-radius: 25%;
+  /* border: 1px solid #ffb319; */
+}
+
+.btn1 {
+  border: 1px solid #ffb319;
+  background-color: #ffb319;
+}
+.btn1 a {
+  color: white;
+}
+
+.btn2 {
+  background-color: white;
+  border: 1px solid #ffb319;
+}
+
+.btn2 a {
+  color: #ffb319;
+}
+
+.projectItem button a {
+  text-decoration: none;
+  font-size: 20px;
+}
